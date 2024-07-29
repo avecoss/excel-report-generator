@@ -7,3 +7,12 @@ spring:
         username: your_username
         password: your_password
         driver-class-name: org.postgresql.Driver
+
+filePath:
+    report: "report/data.xlsx"
+
+batch:
+    size: 1000
+
+threads:
+    count: 2
